@@ -1,0 +1,105 @@
+/* desiged by Joshua Akinleye */
+body{
+    font-family: monospace;
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.897);
+}
+#CMD{
+    display: inline-flex;
+    flex-flow: row;
+}
+
+ul{
+    display: inline-flex;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+    background: rgba(0, 153, 20, 0.5);
+    margin: 1em;
+    border-radius: 0.5em;
+    border:none;
+    transition: 1s;
+}
+li:hover{
+    background: rgb(2, 180, 2);
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+}
+
+#terminal{
+    background: rgba(39, 39, 39, 0.788);
+    padding: 20px;
+    display: inline-flex;
+    flex-flow: column;
+    margin: 10px;
+    width: 70em;
+    height: 53em;
+    border-radius: 0.2em;
+    border:none;
+    transition: 2s;
+    overflow:auto;
+}
+
+#terminal:hover{
+    background: rgba(0, 0, 0, 0.589);
+    border: 1px solid green;
+}
+
+#terminal-header{
+    background: rgba(2, 134, 20, 0.979);
+    padding: 10px;
+    border:none;
+    border-radius: 0.5em;
+    color: rgba(255, 255, 255, 0.616);
+
+}
+
+#terminal-console{
+    background: rgba(6, 40, 134, 0.11);
+    padding: 1em;
+    width: 20em;
+    height: 55em;
+    border:none;
+    border-radius: 0.5em;
+    color: green;
+    transition: 1s;
+    display: inline-flex;
+    flex-flow: row;
+    overflow: auto;
+}
+
+#terminal-console:hover{
+    border: 0.1em solid rgb(0, 255, 0);
+    background: rgb(196, 207, 195);
+}
+
+#matrix1{
+    color: rgb(0, 4, 255);
+}
+
+#matrix2{
+    color: green;
+}
+
+input{
+    border: none;
+    background: inherit;
+    padding: 0.5em;
+    width: 45em;
+    color: rgb(32, 255, 2);
+    font-family: monospace;
+    
+}
+
+.outputs{
+    border:none;
+    color: rgb(6, 131, 23);
+}
